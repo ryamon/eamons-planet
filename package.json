@@ -1,19 +1,17 @@
 {
-  "name": "Eamon's Planet",
+  "name": "myproject",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-paged -d dist"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^4.1.1"
   },
   "dependencies": {
-    "gh-pages": "^5.0.0",
     "gsap": "^3.11.4",
     "three": "^0.149.0"
   }

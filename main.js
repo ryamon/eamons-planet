@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import 'https://ryamon.github.io/style.css';
+import './style.css';
 import gsap from 'gsap'
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
 
@@ -36,8 +36,7 @@ scene.add(camera);
 const canvas = document.querySelector(".webgl");
 const renderer = new THREE.WebGLRenderer({canvas});
 renderer.setSize(sizes.width, sizes.height);
-renderer.setPixelRatio(2)
-renderer.setClearColor(0x000000);
+renderer.setPixelRatio(2);
 renderer.render(scene, camera);
 
 //Controls
